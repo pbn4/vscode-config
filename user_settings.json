@@ -1,0 +1,51 @@
+{
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vsicons.projectDetection.autoReload": true,
+    "editor.fontSize": 16,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-w>": false,
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "C_Cpp.dimInactiveRegions": false,
+    "workbench.colorTheme": "Dark (Monokai)",
+        "workbench.iconTheme": "vscode-icons",
+        "gitlens.keymap": "alternate",
+        "gitlens.advanced.messages": {
+            "suppressCommitHasNoPreviousCommitWarning": false,
+            "suppressCommitNotFoundWarning": false,
+            "suppressFileNotUnderSourceControlWarning": false,
+            "suppressGitVersionWarning": false,
+            "suppressLineUncommittedWarning": false,
+            "suppressNoRepositoryWarning": false,
+            "suppressResultsExplorerNotice": false,
+            "suppressShowKeyBindingsNotice": true
+        },
+        "C_Cpp.clang_format_fallbackStyle": "Chromium",
+        "C_Cpp.clang_format_sortIncludes": true,
+        "C_Cpp.commentContinuationPatterns": [
+            "/**"
+        ],
+        "C_Cpp.formatting": "Default",
+        "C_Cpp.intelliSenseEngine": "Tag Parser",
+        "C_Cpp.intelliSenseEngineFallback": "Disabled",
+        "C_Cpp.loggingLevel": "Information",
+        "gitlens.historyExplorer.enabled": true,
+        "workbench.editor.enablePreviewFromQuickOpen": false
+    }
+
